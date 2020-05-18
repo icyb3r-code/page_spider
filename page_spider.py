@@ -5,6 +5,7 @@ from utilities.bcolors import bcolors
 
 def main(database: str, url_list_file: str,top_n: int):
 
+
     # web spider code
     big_word_list = []
     blue = f"{bcolors.OKBLUE}[!]{bcolors.ENDC} "
